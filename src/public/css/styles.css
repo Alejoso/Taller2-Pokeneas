@@ -1,0 +1,49 @@
+body {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1a1a2e;
+    color: #eaeaea;
+    margin: 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    image-rendering: pixelated;
+}
+
+a {
+    color: #eaeaea;
+    font-size: large;
+    padding: 0.5em 1em;
+}
+
+blockquote {
+    max-width: 500px;
+    text-align: center;
+    font-style: italic;
+    color: #f5c800;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    color: #eaeaea;
+    font-size: large;
+    font-weight: bold;
+}
+
+small {
+    color: #888;
+    margin-top: 1em;
+}
